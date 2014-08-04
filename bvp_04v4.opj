@@ -9,7 +9,7 @@
         (Type "Schematic Library"))
       (File "d:\project\circuit\orcad\lib\sample.olb"
         (Type "Schematic Library")))
-    (File ".\bvp_04v3.dsn"
+    (File ".\bvp_04v4.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
@@ -37,7 +37,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\BVP_04V3.brd")
+    ("Allegro Netlist Output Board File" "allegro\BVP_04V4.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -56,7 +56,7 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "FALSE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DRC")
+    (DRC_Report_File "D:\PROJECT\CIRCUIT\BVP\04V4\BVP_04V4.DRC")
     (DRC_Check_Ports "TRUE")
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -85,7 +85,7 @@
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (DRC_Run_Physical_Custom_DRC "FALSE"))
   (Folder "Outputs"
-    (File ".\bvp_04v3.drc"
+    (File ".\bvp_04v4.drc"
       (Type "Report"))
     (File ".\pcb\pstxnet.dat"
       (Type "Report")
@@ -97,9 +97,9 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File "BVP_04V3.PRP"
+    (File ".\bvp_04v4.prp"
       (Type "Report")
-      (DisplayName "BVP_04V3.PRP")))
+      (DisplayName "BVP_04V4.PRP")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (ATMEGA164_TQFP
@@ -141,81 +141,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bvp_04v3.dsn")
-      (Path "Design Resources" ".\bvp_04v3.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\bvp_04v3.dsn" "Design Cache")
+      (Path "Design Resources" ".\bvp_04v4.dsn")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "05 - INTERFACE")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\power.olb")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\bvp_04v3.dsn"))
+      (Select "Design Resources" ".\bvp_04v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 54 1422 56 510")
-        (Scroll "-331 -10")
-        (Zoom "77")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DSN")
-      (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 27 1399 28 486")
-        (Scroll "-219 0")
-        (Zoom "77")
+        (Placement "44 2 3 -1 -1 -4 -24 44 1393 46 626")
+        (Scroll "172 814")
+        (Zoom "200")
         (Occurrence "/F1"))
-      (Path "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DSN")
+      (Path "D:\!!!SORT\BVP_04\BVP_04V4.DSN")
       (Schematic "05 - INTERFACE")
-      (Page "F - INTERFACE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 135 1507 140 598")
-        (Scroll "-85 59")
-        (Zoom "100")
-        (Occurrence "/B1"))
-      (Path "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DSN")
-      (Schematic "02 - INPUT")
-      (Page "B - INPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 0 1372 0 458")
-        (Scroll "-85 0")
-        (Zoom "100")
-        (Occurrence "/A1"))
-      (Path "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DSN")
-      (Schematic "01 - OUTPUT")
-      (Page "A - OUTPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 54 1426 56 514")
-        (Scroll "-85 40")
-        (Zoom "100")
-        (Occurrence "/D1"))
-      (Path "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DSN")
-      (Schematic "03 - AMPLIFIER")
-      (Page "D - AMLIFIER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 81 1453 84 542")
-        (Scroll "-85 0")
-        (Zoom "100")
-        (Occurrence "/E1"))
-      (Path "D:\PROJECT\CIRCUIT\BVP\04V3\BVP_04V3.DSN")
-      (Schematic "04 - MCU")
-      (Page "E - MCU")))
+      (Page "F - INTERFACE")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))

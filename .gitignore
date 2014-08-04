@@ -1,0 +1,5 @@
+/pcb/log
+/pcb/rep
+/pcb/signoise.run
+*.dat*
+*.*,*

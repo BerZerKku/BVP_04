@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  d:/Project/Circuit/BVP/04v3/pcb/BVP_04V3.brd*
+G04 Layout Name:  d:/Project/Circuit/BVP/04v4/pcb/BVP_04V4.brd*
 G04 Film Name:    BOARD*
 G04 File Format:  Gerber RS274X*
-G04 File Origin:  Cadence Allegro 16.6-S026*
-G04 Origin Date:  Wed Apr 30 16:30:29 2014*
+G04 File Origin:  Cadence Allegro 16.6-S029*
+G04 Origin Date:  Mon Aug 04 12:17:29 2014*
 G04 *
 G04 Layer:  BOARD GEOMETRY/OUTLINE*
 G04 Layer:  BOARD GEOMETRY/NCROUTE_PATH*
