@@ -99,7 +99,10 @@
     (Sort User)
     (File ".\bvp_04v4.prp"
       (Type "Report")
-      (DisplayName "BVP_04V4.PRP")))
+      (DisplayName "BVP_04V4.PRP"))
+    (File ".\pcb\variants.lst"
+      (Type "Report")
+      (DisplayName "./pcb/Variants.LST")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (ATMEGA164_TQFP
@@ -143,11 +146,9 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\bvp_04v4.dsn")
       (Path "Design Resources" ".\bvp_04v4.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\bvp_04v4.dsn" "05 - INTERFACE")
-      (Path "Design Resources" ".\bvp_04v4.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\bvp_04v4.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -157,12 +158,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 44 1393 46 626")
-        (Scroll "172 814")
-        (Zoom "200")
-        (Occurrence "/F1"))
-      (Path "D:\!!!SORT\BVP_04\BVP_04V4.DSN")
-      (Schematic "05 - INTERFACE")
-      (Page "F - INTERFACE")))
+        (Placement "44 0 1 -1 -1 -4 -24 88 1437 92 672")
+        (Scroll "-75 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\BVP\04V4\BVP_04V4.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "TOP LEVEL")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
