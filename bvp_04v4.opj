@@ -146,9 +146,15 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\bvp_04v4.dsn")
       (Path "Design Resources" ".\bvp_04v4.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "01 - OUTPUT")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "02 - INPUT")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "03 - AMPLIFIER")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "04 - MCU")
+      (Path "Design Resources" ".\bvp_04v4.dsn" "05 - INTERFACE")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\bvp_04v4.dsn" "05 - INTERFACE"
+         "F - INTERFACE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -158,12 +164,32 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 88 1437 92 672")
-        (Scroll "-75 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -24 -66 1283 98 678")
+        (Scroll "-181 0")
+        (Zoom "82")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BVP\04V4\BVP_04V4.DSN")
       (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL")))
+      (Page "TOP LEVEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 176 1573 184 646")
+        (Scroll "-99 140")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Path "D:\PROJECT\CIRCUIT\BVP\04V4\BVP_04V4.DSN")
+      (Schematic "01 - OUTPUT")
+      (Page "A - OUTPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -24 220 1617 230 692")
+        (Scroll "-336 -9")
+        (Zoom "79")
+        (Occurrence "/F1"))
+      (Path "D:\PROJECT\CIRCUIT\BVP\04V4\BVP_04V4.DSN")
+      (Schematic "05 - INTERFACE")
+      (Page "F - INTERFACE")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
